@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity6"
+    tools:ignore="ExtraText">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="DİYET LİSTESİ" />
+
+    <!-- 500 Kalori Menü -->
+    <TextView
+        android:id="@+id/textView500Calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500 KALORİ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>/>
+
+    <TextView
+        android:id="@+id/textViewt500CalorieMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabah: 1 kase yulaf ezmesi ve süt.. Öğle: 1 kase çorba, 1 dilim kepek ekmek, 1 kase salata.Akşam: 1 kase zeytinyağlı sebze yemeği, 1 kase salata, 1 kase cacık"
+        android:textSize="16sp"/>
+
+    <!-- 1000 Kalori Menü -->
+    <TextView
+        android:id="@+id/textView1000Calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000 KALORİ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>/>
+
+    <TextView
+        android:id="@+id/textView1000CalorieMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabah: Beyaz peynir, domates, salatalık, 1 dilim kepek ekmek, 1 fincan şekersiz çay. Öğle: 1 kase çorba, 1 dilim kepek ekmek, 1 kase salata.Akşam: 1 kase zeytinyağlı sebze yemeği, 1 kase salata, 1 kase cacık"
+        android:textSize="16sp"/>
+
+    <!-- 1500 Kalori Menü -->
+    <TextView
+        android:id="@+id/textView1500Calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1500 KALORİ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>/>
+
+    <TextView
+        android:id="@+id/textView1500CalorieMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabah: 1 kase mısır gevreği ve süt.Öğle: 1 kase yoğurtlu ıspanak.Akşam: 1 kase sebze yemeği, 1 kase salata"
+        android:textSize="16sp"/>
+
+    <!-- 2000 Kalori Menü -->
+    <TextView
+        android:id="@+id/textView2000Calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2000 KALORİ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView2000CalorieMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabah: Beyaz peynir, domates, salatalık, 1 dilim kepek ekmek, 1 fincan şekersiz çay.Öğle: 1 kase sebze çorbası, 1 kase peynirli salata.Akşam: 1 kase sebze yemeği, 5 kaşık bulgur pilavı"
+        android:textSize="16sp"/>
+
+    <!-- 2500 Kalori Menü -->
+    <TextView
+        android:id="@+id/textView2500Calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2500 KALORİ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>/>
+
+    <TextView
+        android:id="@+id/textView2500CalorieMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Sabah: 1 kase yulaf ezmesi ve süt.Öğle: 1 tabak kepekli makarna, 1 kase yoğurt.Akşam: 1 tabak salça soslu biftek, 1 kase salata"
+        android:textSize="16sp" />
+
+    <!-- 3000 Kalori Menü -->
+    <TextView
+        android:id="@+id/textView3000Calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3000 KALORİ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>/>
+
+    <TextView
+        android:id="@+id/textView3000CalorieMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:text="Sabah: 1 kase mısır gevreği ve süt.Öğle: 1 tabak kepekli makarna, 1 kase yoğurt.Akşam: 1 tabak salça soslu biftek, 1 kase salata"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center"
+        android:onClick="sonsayfa"
+        android:text="Sonuç Sayfası" />
+</LinearLayout>

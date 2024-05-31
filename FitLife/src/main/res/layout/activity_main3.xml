@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <ImageButton
+        android:id="@+id/kaloriButton"
+        android:layout_width="255dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:onClick="kalori"
+        app:srcCompat="@drawable/kalori"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/egzersizButton"
+        android:layout_width="255dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:onClick="egzersiz"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/egzersiz" />
+
+    <ImageButton
+        android:id="@+id/diyetButton"
+        android:layout_width="255dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:onClick="diyet"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="@drawable/diyet" />
+
+    <Button
+        android:id="@+id/sonbuton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center"
+        android:onClick="sonsayfa"
+        android:text="Sonuç Sayfası" />
+
+</LinearLayout>
